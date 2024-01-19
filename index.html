@@ -3,9 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>visakhapatnam</title>
+    <style>
+        body {
+            font-family:Arial, sans-serif;
+            margin: 50px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        hr{ max-width : 50px 0;
+        border: auto;
+    }
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    form{ max-width: 400px;
+    }
+    label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Visakhapatnam</h1>
+        <p>Vizag, The City of Destiny</p>
+    </header>
+    <nav>
+        <a href="#description">Description</a>
+
+        <a href="#attraction">Attraction</a>
+
+        <a href="#statistics">City Statistics</a>
+
+        <a href="#feedback">Citizen Feedback</a>
+
+        <a href="#quotes">Quotes</a>
+
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="description">
+        <h2>Welcome to<span style"color: blue"> Vizag</span></h2>
+        <img src="https://images.unsplash.com/photo-1609854534028-b512f5246abc?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmlzYWtoYXBhdG5hbXxlbnwwfHwwfHx8MA%3D%3D"
+        alt="city_Vizag" title="city_Vizag">
+        <p> Visakhapatnam is the city of Destiny in the Indian state of Andhra Pradesh. It is long costal line of sea and hill stations with beautiful view</p>
+    </section>
+    <section id="attrations">
+        <h2>Attrations</h2>
+        <h3> Major Attration</h3>
+        <ol>
+            <li>kaliasagiri</li>
+            <li>Indra Gaandhi Zoological Park</li>
+            <li>Boora Caves</li>
+            <li>Sri varahalakdhmi Narasimha swamy temple</li>
+            <li>Dolphin's Nose Light house</li>
+        </ol>
+        <h3>Local favourite</h3>
+        <ul>
+            <li>R.K Beach</li>
+            <li>Kalimatha Temple</li>
+            <li>
+                Food Attractions
+            <ol type ="i">
+                <li>Vizag street food</li>
+                <li>Tea at tea stall near beach side</li>
+                <li> vizae car Kana</li>
+            </ol>
+            </li>
+        </ul>
+    </section>
+    <!--city Statistics-->
+    <section id="statistics">
+        <table>
+            <h2>City Starics</h2>
+            <tr>
+                <th> Attributes</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>population</td>
+                <td>5 Lakhs</td>
+            </tr>
+            <tr> 
+                <td>Landmarks</td>
+                <td>135</td>
+            </tr>
+            <tr> 
+                <td>park</td>
+                <td>5</td>
+</tr>
+<tr>
+    <td>Temple</td>
+    <td>14</td>
+</tr>
+        </table>
+    </section>   
+    <!--feedback Section-->
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text"
+            id="name"
+            Age="name"
+            required
+            placeholder="Enter your Full Name"/>
+            <br />
+            <label for="age">Age:</label>
+            <input 
+            type="number"
+            id="age"
+            name="age"
+            required
+            placeholder="Enter your Age" />
+            <label for ="email">Email:</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter Email" />
+            <br/>
+            <label for="Favourit">Favorite Attrations:</label>
+            <select id="Favourit" name="Favourit">
+                <option>R.K Beach</option>
+                <option>Rushikonda Beach</option>
+                <option>Cmr Central</option>
+                <option>Vizag food Khana</option>
+            </select>
+            <br/>
+            <label for="comments">Comments:</label>
+            <textarea
+            id="Comments"
+            name="comments"
+            placeholder="Feedback"
+></textarea>
+<br/>
+<label for="name">
+    Newletter:<input type="checkbox" id="name" name="name"/>Subscribe to newsletter!
+</label>
+<br/>
+<input type="submit"/>
+        </form>
+    </section>
+    <!--Quotes Section-->
+    <section id="quotes">
+        <h2>Quotes for Citizens</h2>
+        <p><span>"Vizag is truly magical place.</span> - Ravi</p>
+        <p>
+            <span>"I fell in love with the vibrant energy of Vizag City."</span> -Akash
+        </p>
+    </section>
+    <!--Contact Section-->
+    <section id="contact">
+        <h2>Contuct us</h2>
+        <p><i>Visit us at:</i><br />114,ardash nagar, Visakhapatnam</p>
+        <p>
+            <i>Email:</i>
+            <a href="mailto:info@Vizagcity.com">info@dreamcity.com</a>
+            </p>
+            <p><i>Mobil:</i>+91 9366988524/  +91 6152 234567</p>
+        </section>
+    <!---Footer Section-->
+    <footer>
+        <p>&copy; 2024 DreamCity.All right reserved.</p>
+    </footer>
 </body>
 </html>
